@@ -1,5 +1,21 @@
 version: 1
+imports:
+  - azu-prh/ja/jser-info.yml
+  - azu-prh/ja/kanji-open.yml
+  - azu-prh/ja/spoken.yml
+  - azu-prh/ja/typo.yml
+  - azu-prh/javascript.yml
+  - azu-prh/css.yml
+  - azu-prh/software.yml
 rules:
-  - expected: さまざま
-    pattern:  様々
-    prh: 漢字で書かず、ひらがなで書くと読みやすくなります
+  - expected: Unity
+    patterns:  
+      - /ユニティ(?![ちゃん|・テクノロジーズ・ジャパン])/
+    prh: 製品名なので統一します
+    specs:
+      - from: ユニティ
+        to:   Unity
+      - from: ユニティちゃんは許す
+        to:   ユニティちゃんは許す
+      - from: ユニティ・テクノロジーズ・ジャパン合同会社は会社名
+        to:   ユニティ・テクノロジーズ・ジャパン合同会社は会社名
