@@ -19,3 +19,67 @@ rules:
         to:   ユニティちゃんは許す
       - from: ユニティ・テクノロジーズ・ジャパン合同会社は会社名
         to:   ユニティ・テクノロジーズ・ジャパン合同会社は会社名
+  - expected: エディター拡張
+    patterns:  
+      - Editor拡張
+      - エディタ拡張
+      - エディッタ拡張
+      - エディッター拡張
+    prh: 表記ゆれ多いので統一
+    specs:
+      - from: Editor拡張
+        to:   エディター拡張
+      - from: エディタ拡張
+        to:   エディター拡張
+      - from: エディッタ拡張
+        to:   エディター拡張
+  - expected: プログラマー
+    patterns:  
+      - プログラマ(?!ー)
+    specs:
+      - from: プログラマ
+        to:   プログラマー
+      - from: プログラマー
+        to:   プログラマー
+  - expected: デザイナー
+    patterns:  
+      - デザイナ(?!ー)
+    specs:
+      - from: デザイナ
+        to:   デザイナー
+      - from: デザイナー
+        to:   デザイナー
+  - expected: キャラクター
+    patterns:  
+      - キャラクタ(?!ー)
+    specs:
+      - from: キャラクタ
+        to:   キャラクター
+      - from: キャラクター
+        to:   キャラクター
+  - expected: キャラクター
+    patterns:  
+      - インスペクタ(?!ー)
+    specs:
+      - from: インスペクタ
+        to:   インスペクター
+      - from: インスペクター
+        to:   インスペクター  
+  - expected: 応用も利く
+    patterns:  
+      - 応用も聞く
+    specs:
+      - from: 応用も聞く
+        to:   応用も利く
+  - expected: 面白い
+    patterns:  
+      - おも白い
+    specs:
+      - from: おも白い
+        to:   面白い
+  - expected: 必要があります
+    patterns:  
+      - 必要がいります
+    specs:
+      - from: 必要がいります
+        to:   必要があります
