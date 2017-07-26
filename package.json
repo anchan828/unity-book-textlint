@@ -1,6 +1,6 @@
 {
   "name": "textlint-rule-preset-ja-unity-book",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/textlint-rule-preset-ja-unity-book.js",
   "repository": "git@github.com:anchan828/unity-book-textlint.git",
   "author": "kyusyukeigo <anchan828@gmail.com>",

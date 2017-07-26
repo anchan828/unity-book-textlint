@@ -35,7 +35,7 @@ rules:
         to:   エディター拡張
   - expected: プログラマー
     patterns:  
-      - プログラマ(?!ー)
+      - /プログラマ(?!ー)/
     specs:
       - from: プログラマ
         to:   プログラマー
@@ -43,7 +43,7 @@ rules:
         to:   プログラマー
   - expected: デザイナー
     patterns:  
-      - デザイナ(?!ー)
+      - /デザイナ(?!ー)/
     specs:
       - from: デザイナ
         to:   デザイナー
@@ -51,7 +51,7 @@ rules:
         to:   デザイナー
   - expected: キャラクター
     patterns:  
-      - キャラクタ(?!ー)
+      - /キャラクタ(?!ー)/
     specs:
       - from: キャラクタ
         to:   キャラクター
@@ -59,7 +59,7 @@ rules:
         to:   キャラクター
   - expected: キャラクター
     patterns:  
-      - インスペクタ(?!ー)
+      - /インスペクタ(?!ー)/
     specs:
       - from: インスペクタ
         to:   インスペクター
