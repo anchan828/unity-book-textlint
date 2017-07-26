@@ -57,7 +57,7 @@ rules:
         to:   キャラクター
       - from: キャラクター
         to:   キャラクター
-  - expected: キャラクター
+  - expected: インスペクター
     patterns:  
       - /インスペクタ(?!ー)/
     specs:
