@@ -83,3 +83,9 @@ rules:
     specs:
       - from: 必要がいります
         to:   必要があります
+  - expected: ほとんど
+    patterns:  
+      - 殆ど
+    specs:
+      - from: 殆ど
+        to:   ほとんど
