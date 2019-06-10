@@ -1,5 +1,5 @@
 {
-  "name": "textlint-rule-preset-ja-unity-book",
+  "name": "textlint-rule-preset-ja-unibook",
   "version": "1.1.0",
   "main": "lib/textlint-rule-preset-ja-unity-book.js",
   "repository": "git@github.com:anchan828/unity-book-textlint.git",
