@@ -13,7 +13,7 @@
     "test": "mocha test/**/*.js"
   },
   "devDependencies": {
-    "mocha": "^10.2.0",
+    "mocha": "^10.8.2",
     "textlint": "^12.5.1"
   }
 }
